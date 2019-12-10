@@ -4,7 +4,7 @@ class IPLocating {
     static getByIP() {
 
         let response = $.ajax({
-            url:'https://ipapi.co/json/',
+            url:'http://ip-api.com/json/',
             async: false,
             method:'GET'
         });

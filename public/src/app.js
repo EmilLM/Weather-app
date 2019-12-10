@@ -10,7 +10,7 @@ $(function () {
     const moduleWeather = $('.module__weather');
     const moduleForm = $('.module__form');
     let ipResponse = IPLocating.getByIP();
-    let darkSkyResponse = Weather.getWeather(ipResponse.latitude,ipResponse.longitude);
+    let darkSkyResponse = Weather.getWeather(ipResponse.lat,ipResponse.lon);
 
     console.log(ipResponse);
 
